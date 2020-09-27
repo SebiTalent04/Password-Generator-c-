@@ -2,43 +2,37 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Password_Cs.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="CheckBox1" Type="System.Windows.Forms.CheckState" Scope="User">
+    <Setting Name="check_Uppercase" Type="System.Windows.Forms.CheckState" Scope="User">
       <Value Profile="(Default)">Unchecked</Value>
     </Setting>
-    <Setting Name="CheckBox2" Type="System.Windows.Forms.CheckState" Scope="User">
+    <Setting Name="check_Lowercase" Type="System.Windows.Forms.CheckState" Scope="User">
       <Value Profile="(Default)">Unchecked</Value>
     </Setting>
-    <Setting Name="CheckBox3" Type="System.Windows.Forms.CheckState" Scope="User">
+    <Setting Name="check_Number" Type="System.Windows.Forms.CheckState" Scope="User">
       <Value Profile="(Default)">Unchecked</Value>
     </Setting>
-    <Setting Name="CheckBox4" Type="System.Windows.Forms.CheckState" Scope="User">
+    <Setting Name="check_Special" Type="System.Windows.Forms.CheckState" Scope="User">
       <Value Profile="(Default)">Unchecked</Value>
-    </Setting>
-    <Setting Name="Style" Type="MetroFramework.MetroColorStyle" Scope="User">
-      <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="StyleTab" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
-    <Setting Name="StyleCheck1" Type="MetroFramework.MetroColorStyle" Scope="User">
+    <Setting Name="style_Uppercase" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
-    <Setting Name="StyleCheck2" Type="MetroFramework.MetroColorStyle" Scope="User">
+    <Setting Name="style_Lowercase" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
-    <Setting Name="StyleCheck3" Type="MetroFramework.MetroColorStyle" Scope="User">
+    <Setting Name="style_Number" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
-    <Setting Name="StyleCheck4" Type="MetroFramework.MetroColorStyle" Scope="User">
+    <Setting Name="style_Special" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="StyleCombo1" Type="MetroFramework.MetroColorStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="StyleCombo2" Type="MetroFramework.MetroColorStyle" Scope="User">
-      <Value Profile="(Default)">Default</Value>
-    </Setting>
-    <Setting Name="Theme" Type="MetroFramework.MetroThemeStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="ThemeTab" Type="MetroFramework.MetroThemeStyle" Scope="User">
@@ -63,9 +57,6 @@
       <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="LabelVal" Type="System.String" Scope="User">
-      <Value Profile="(Default)">0</Value>
-    </Setting>
-    <Setting Name="PassLenght" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>

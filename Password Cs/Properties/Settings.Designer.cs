@@ -26,60 +26,48 @@ namespace Password_Cs.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Unchecked")]
-        public global::System.Windows.Forms.CheckState CheckBox1 {
+        public global::System.Windows.Forms.CheckState check_Uppercase {
             get {
-                return ((global::System.Windows.Forms.CheckState)(this["CheckBox1"]));
+                return ((global::System.Windows.Forms.CheckState)(this["check_Uppercase"]));
             }
             set {
-                this["CheckBox1"] = value;
+                this["check_Uppercase"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Unchecked")]
-        public global::System.Windows.Forms.CheckState CheckBox2 {
+        public global::System.Windows.Forms.CheckState check_Lowercase {
             get {
-                return ((global::System.Windows.Forms.CheckState)(this["CheckBox2"]));
+                return ((global::System.Windows.Forms.CheckState)(this["check_Lowercase"]));
             }
             set {
-                this["CheckBox2"] = value;
+                this["check_Lowercase"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Unchecked")]
-        public global::System.Windows.Forms.CheckState CheckBox3 {
+        public global::System.Windows.Forms.CheckState check_Number {
             get {
-                return ((global::System.Windows.Forms.CheckState)(this["CheckBox3"]));
+                return ((global::System.Windows.Forms.CheckState)(this["check_Number"]));
             }
             set {
-                this["CheckBox3"] = value;
+                this["check_Number"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Unchecked")]
-        public global::System.Windows.Forms.CheckState CheckBox4 {
+        public global::System.Windows.Forms.CheckState check_Special {
             get {
-                return ((global::System.Windows.Forms.CheckState)(this["CheckBox4"]));
+                return ((global::System.Windows.Forms.CheckState)(this["check_Special"]));
             }
             set {
-                this["CheckBox4"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle Style {
-            get {
-                return ((global::MetroFramework.MetroColorStyle)(this["Style"]));
-            }
-            set {
-                this["Style"] = value;
+                this["check_Special"] = value;
             }
         }
         
@@ -98,48 +86,48 @@ namespace Password_Cs.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle StyleCheck1 {
+        public global::MetroFramework.MetroColorStyle style_Uppercase {
             get {
-                return ((global::MetroFramework.MetroColorStyle)(this["StyleCheck1"]));
+                return ((global::MetroFramework.MetroColorStyle)(this["style_Uppercase"]));
             }
             set {
-                this["StyleCheck1"] = value;
+                this["style_Uppercase"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle StyleCheck2 {
+        public global::MetroFramework.MetroColorStyle style_Lowercase {
             get {
-                return ((global::MetroFramework.MetroColorStyle)(this["StyleCheck2"]));
+                return ((global::MetroFramework.MetroColorStyle)(this["style_Lowercase"]));
             }
             set {
-                this["StyleCheck2"] = value;
+                this["style_Lowercase"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle StyleCheck3 {
+        public global::MetroFramework.MetroColorStyle style_Number {
             get {
-                return ((global::MetroFramework.MetroColorStyle)(this["StyleCheck3"]));
+                return ((global::MetroFramework.MetroColorStyle)(this["style_Number"]));
             }
             set {
-                this["StyleCheck3"] = value;
+                this["style_Number"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle StyleCheck4 {
+        public global::MetroFramework.MetroColorStyle style_Special {
             get {
-                return ((global::MetroFramework.MetroColorStyle)(this["StyleCheck4"]));
+                return ((global::MetroFramework.MetroColorStyle)(this["style_Special"]));
             }
             set {
-                this["StyleCheck4"] = value;
+                this["style_Special"] = value;
             }
         }
         
@@ -164,18 +152,6 @@ namespace Password_Cs.Properties {
             }
             set {
                 this["StyleCombo2"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroThemeStyle Theme {
-            get {
-                return ((global::MetroFramework.MetroThemeStyle)(this["Theme"]));
-            }
-            set {
-                this["Theme"] = value;
             }
         }
         
@@ -272,18 +248,6 @@ namespace Password_Cs.Properties {
             }
             set {
                 this["LabelVal"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int PassLenght {
-            get {
-                return ((int)(this["PassLenght"]));
-            }
-            set {
-                this["PassLenght"] = value;
             }
         }
     }
